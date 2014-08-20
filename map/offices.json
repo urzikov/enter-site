@@ -1,71 +1,80 @@
 {
     "Москва": [
         {
-            "officeName": "ООО \"Коминтек\"",
+            "officeName": "ООО \"Коминтек\". Филиал",
             "phones": ["+7 (495) 975-91-69"],
-            "mails": ["selldept@comintech.ru"]
+            "mails": ["sales@enter-systems.ru"]
+        },
+        {
+            "officeName": "AT consulting",
+            "phones": ["+7 (495) 748-05-75"],
+            "mails": ["clients@at-consulting.ru"]
         }
     ],
     "Тюмень": [
         {
             "officeName": "ООО \"Коминтек\"",
             "phones": ["+7 (3452) 69-45-78"],
-            "mails": ["selldept@comintech.ru"]
+            "mails": ["sales@enter-systems.ru"]
         },
         {
-              "officeName": "ООО \"Компьютерная компания МЕГА\"",
+              "officeName": "Компьютерная компания МЕГА",
               "phones": ["+7 (3452) 55-23-24"],
               "mails": ["sen@itmega.ru"]
         },
         {
-            "officeName": "ООО \"Мастер Трейд\"",
+            "officeName": "Мастер",
             "phones": ["+7 (3452) 56-20-20"],
             "mails": ["master@mstr.ru"]
         }
     ],
     "Владивосток": [
         {
-            "officeName": "ООО \"ВладБизнесКонсалтинг\"",
+            "officeName": "ВладБизнесКонсалтинг (ВБК)",
             "phones": ["+7 (423) 272-68-35"],
             "mails": ["cho@geovlad.ru"]
         },
         {
-            "officeName": "ЗАО \"ЛАНИТ ДВ\"",
+            "officeName": "ЛАНИТ-ДВ",
             "phones": ["+7 (423) 260-04-00"],
             "mails": ["info@lanitdv.ru"]
         }
     ],
     "Нальчик": [
         {
-            "officeName": "ООО \"ВладБизнесКонсалтинг\"",
+            "officeName": "ООО \"РЭМ\"",
             "phones": ["+7 (903) 496-77-92"],
             "mails": ["ooo_ram@mail.ru"]
         }
     ],
     "Уфа": [
         {
-            "officeName": "ОАО \"Башкирский регистр социальных карт\"",
+            "officeName": "Башкирский регистр социальных карт",
             "phones": ["+7 (347) 276-91-23"],
             "mails": ["mail@brsc.ru"]
+        },
+        {
+            "officeName": "Уральская монтажно-инсталляционная компания",
+            "mails": ["u-mic@yandex.ru"]
         }
     ],
     "Мурманск": [
         {
-            "officeName": "ЗАО \"Компьютер-Маркет\"",
+            "officeName": "Компьютер-Маркет",
             "phones": ["+7 (8152) 45-36-50"],
             "mails": ["info@netsl.ru"]
         }
     ],
     "Хабаровск": [
         {
-            "officeName": "ЗАО \"ЛАНИТ-Партнер\"",
+            "officeName": "ЛАНИТ-Партнер",
             "phones": ["+7 (4212) 46-64-95"],
             "mails": ["1992@lanitp.ru"]
         }
     ],
     "Омск": [
         {
-            "officeName": "ООО \"КРИТ\"",
+            "officeName": "КРИТ",
             "phones": ["+7 (3812) 71-33-00"],
             "mails": ["avk@inforser.ru"]
         }

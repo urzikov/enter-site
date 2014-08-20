@@ -185,7 +185,9 @@ $(function () {
     var svg = d3.select("#map-wrapper").append("svg")
         .attr("width", width)
         .attr("height", height)
-        .style("margin", "10px auto");
+        .attr("id", "map-svg")
+        .style("margin", "100px auto 0px")
+        .style("display", "block");
 
     var projection = d3.geo.albers()
         .rotate([-105, 0])
@@ -237,9 +239,10 @@ $(function () {
                 var attrs  = /translate\(\s*([^\s,)]+)[ ,]([^\s,)]+)/.exec(this.getAttribute('transform'));
                 var x = +attrs[1],
                     y = +attrs[2];
+                var xx = $("#map-svg").offset().left - $("#map-wrapper").offset().left;
 
                 $("#offices").css("top", $("#map-wrapper").offset().top - this.getBBox().height + y + "px")
-                             .css("left", this.getBBox().width + x + "px")
+                             .css("left", this.getBBox().width + x + xx + "px")
                              .show();
 
                 var source   = $("#offices-template").html();
