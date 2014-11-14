@@ -14,8 +14,13 @@
     "Тюмень": [
         {
             "officeName": "ООО \"Коминтек\"",
-            "phones": ["+7 (3452) 69-45-78"],
+            "phones": ["+7 (3452) 58-71-47"],
             "mails": ["sales@enter-systems.ru"]
+        },
+        {
+              "officeName": "Группа IT–компаний Арсенал+",
+              "phones": ["+7 (3452) 79-70-70"],
+              "mails": ["ars@arsplus.ru"]
         },
         {
               "officeName": "Компьютерная компания МЕГА",
