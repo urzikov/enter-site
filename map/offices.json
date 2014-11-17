@@ -1,7 +1,7 @@
 {
     "Москва": [
         {
-            "officeName": "ООО \"Коминтек\". Филиал",
+            "officeName": "ООО \"Крафт АйТи\". Филиал",
             "phones": ["+7 (495) 975-91-69"],
             "mails": ["sales@enter-systems.ru"]
         },
@@ -13,9 +13,14 @@
     ],
     "Тюмень": [
         {
-            "officeName": "ООО \"Коминтек\"",
+            "officeName": "ООО \"Крафт АйТи\"",
             "phones": ["+7 (3452) 58-71-47"],
             "mails": ["sales@enter-systems.ru"]
+        },
+        {
+            "officeName": "ООО \"Коминтек\"",
+            "phones": ["+7 (3452) 59-31-69"],
+            "mails": ["selldept@comintech.ru"]
         },
         {
               "officeName": "Группа IT–компаний Арсенал+",
