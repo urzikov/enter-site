@@ -15,5 +15,5 @@ var express = require("express"),
 app.use(express.static(__dirname));
 
 app.get("/videos/", vidStreamer.settings(settings));
-app.listen(port);
+app.listen(port, 'localhost');
 console.log("app.js up and running on port " + port);
