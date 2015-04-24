@@ -18,11 +18,6 @@
             "mails": ["sales@enter-systems.ru"]
         },
         {
-            "officeName": "ООО \"Коминтек\"",
-            "phones": ["+7 (3452) 59-31-69"],
-            "mails": ["selldept@comintech.ru"]
-        },
-        {
               "officeName": "Компьютерная компания МЕГА",
               "phones": ["+7 (3452) 55-23-24"],
               "mails": ["sen@itmega.ru"]
@@ -83,6 +78,13 @@
             "officeName": "КРИТ",
             "phones": ["+7 (3812) 71-33-00"],
             "mails": ["krit@mobile-class.ru"]
+        }
+    ],
+    "Сургут": [
+        {
+            "officeName": "АЛЬТ",
+            "phones": ["+7 (3462) 66-73-43"],
+            "mails": ["ogk667343@yandex.ru"]
         }
     ]
 
