@@ -86,6 +86,13 @@
             "phones": ["+7 (3462) 66-73-43"],
             "mails": ["ogk667343@yandex.ru"]
         }
+    ],
+    "Екатеринбург": [
+        {
+            "officeName": "Корус АКС",
+            "phones": ["+7 (343) 365-82-09"],
+            "mails": ["quorus@quorus.ru"]
+        }
     ]
 
 }
