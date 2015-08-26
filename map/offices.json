@@ -1,11 +1,6 @@
 {
     "Москва": [
         {
-            "officeName": "ООО \"Крафт АйТи\". Филиал",
-            "phones": ["+7 (495) 975-91-69"],
-            "mails": ["sales@enter-systems.ru"]
-        },
-        {
             "officeName": "AT consulting",
             "phones": ["+7 (495) 748-05-75"],
             "mails": ["clients@at-consulting.ru"]
@@ -14,7 +9,7 @@
     "Тюмень": [
         {
             "officeName": "ООО \"Крафт АйТи\"",
-            "phones": ["+7 (3452) 58-71-47"],
+            "phones": ["+7 (3452) 61-73-17"],
             "mails": ["sales@enter-systems.ru"]
         },
         {
