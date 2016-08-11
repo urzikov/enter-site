@@ -1,6 +1,3 @@
-/**
- * Created by e.popov on 23.07.2014.
- */
 (function () {
     'use strict';
     angular.module('enter').service('tickets', ['dictionaries', function (dictionaries) {

@@ -1,7 +1,3 @@
-/**
- * Created by e.popov on 15.07.2014.
- */
-
 var express = require("express"),
     app = express(),
     vidStreamer = require("vid-streamer"),

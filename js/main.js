@@ -1,7 +1,3 @@
-/**
- * Created by i.sungurov on 04.07.14.
- */
-
 $(function () {
 
     var

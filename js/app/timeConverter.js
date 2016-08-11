@@ -1,6 +1,3 @@
-/**
- * Created by i.sungurov on 22.01.14.
- */
 (function () {
     "use strict";
     angular.module('enter').service('timeConverter', function () {
