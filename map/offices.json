@@ -13,9 +13,14 @@
             "mails": ["sales@enter-systems.ru"]
         },
         {
-              "officeName": "Компьютерная компания МЕГА",
-              "phones": ["+7 (3452) 55-23-24"],
-              "mails": ["sen@itmega.ru"]
+            "officeName": "ООО \"Ин Нова\"",
+            "phones": ["+7 (3452) 68-00-99"],
+            "mails": ["info@innovalab.ru"]
+        },
+        {
+            "officeName": "Компьютерная компания МЕГА",
+            "phones": ["+7 (3452) 55-23-24"],
+            "mails": ["sen@itmega.ru"]
         }
     ],
     "Владивосток": [
