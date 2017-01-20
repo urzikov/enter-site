@@ -182,7 +182,7 @@ $(function () {
         .attr("width", width)
         .attr("height", height)
         .attr("id", "map-svg")
-        .style("margin", "100px auto 0px")
+        .style("margin", "65px auto 0px")
         .style("display", "block");
 
     var projection = d3.geo.albers()
@@ -278,5 +278,53 @@ $(function () {
         video.style.height = '100%';
     });
 
+
+    function validateEmail (email) {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+
+    $('body').on('click', '.send-request', function (evnt) {
+        evnt.preventDefault();
+        $('#name').val('');
+        $('#mail').val('');
+        $('#tel').val('');
+        $('#text').val('');
+        $('.request-info').remove();
+        $('.submit-request').removeAttr('disabled');
+        $('#request-form').modal('show');
+    });
+
+    $('body').on('click', '.submit-request', function (evnt) {
+        if (($('#tel').val().length != 0) || (($('#mail').val().length != 0) && (validateEmail($('#mail').val())))) {
+            var reqData = {
+                name:    $('#name').val(),
+                mail:    $('#mail').val(),
+                tel:     $('#tel').val(),
+                text:    $('#text').val(),
+            };
+            $('#request-form .modal-footer').append('<div class="request-info">Спасибо! В ближайшее время мы с вами свяжемся</div>');
+            $('.submit-request').attr('disabled', 'disabled');
+            $.post('/feedback', reqData, function (data) {
+                if (!data || data.length == 0) {
+                    console.log('Что-то пошло не так с отправкой формы')
+                }
+            }, 'json');
+        } else {
+            if ($('#mail').val().length != 0) {
+                $('#mail').addClass('form-error');
+                $('#mail').focus();
+            } else {
+                $('#tel').addClass('form-error');
+                $('#mail').addClass('form-error');
+                $('#tel').attr('placeholder', 'нужен хотя-бы один способ связи');
+                $('#mail').attr('placeholder', 'нужен хотя-бы один способ связи');
+            }
+        }
+    });
+
+    $('body').on('keyup', 'input', function (evnt) {
+        $('input').removeClass('form-error');
+    });
 
 });

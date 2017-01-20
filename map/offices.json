@@ -2,78 +2,78 @@
     "Москва": [
         {
             "officeName": "AT consulting",
-            "phones": ["+7 (495) 748-05-75"],
+            "phones": ["+7 495 748-05-75"],
             "mails": ["clients@at-consulting.ru"]
         }
     ],
     "Тюмень": [
         {
             "officeName": "ООО \"Крафт АйТи\"",
-            "phones": ["+7 (3452) 58-71-47"],
+            "phones": ["+7 3452 617-317"],
             "mails": ["sales@enter-systems.ru"]
         },
         {
             "officeName": "ООО \"Ин Нова\"",
-            "phones": ["+7 (3452) 68-00-99"],
+            "phones": ["+7 3452 68-00-99"],
             "mails": ["info@innovalab.ru"]
         },
         {
             "officeName": "Компьютерная компания МЕГА",
-            "phones": ["+7 (3452) 55-23-24"],
+            "phones": ["+7 3452 55-23-24"],
             "mails": ["sen@itmega.ru"]
         }
     ],
     "Владивосток": [
         {
-            "officeName": "ВладБизнесКонсалтинг (ВБК)",
-            "phones": ["+7 (423) 272-68-35"],
+            "officeName": "ВладБизнесКонсалтинг ВБК",
+            "phones": ["+7 423 272-68-35"],
             "mails": ["cho@geovlad.ru"]
         },
         {
             "officeName": "ЛАНИТ-ДВ",
-            "phones": ["+7 (423) 260-04-00"],
+            "phones": ["+7 423 260-04-00"],
             "mails": ["info@lanitdv.ru"]
         }
     ],
     "Нальчик": [
         {
             "officeName": "ООО \"РЭМ\"",
-            "phones": ["+7 (903) 496-77-92"],
+            "phones": ["+7 903 496-77-92"],
             "mails": ["ooo_ram@mail.ru"]
         }
     ],
     "Уфа": [
         {
             "officeName": "Уральская монтажно-инсталляционная компания",
-            "phones": ["+7 (917) 807-27-80"],
+            "phones": ["+7 917 807-27-80"],
             "mails": ["u-mic@yandex.ru"]
         }
     ],
     "Мурманск": [
         {
             "officeName": "Компьютер-Маркет",
-            "phones": ["+7 (8152) 45-36-50"],
+            "phones": ["+7 8152 45-36-50"],
             "mails": ["info@netsl.ru"]
         }
     ],
     "Хабаровск": [
         {
             "officeName": "ЛАНИТ-Партнер",
-            "phones": ["+7 (4212) 46-64-95"],
+            "phones": ["+7 4212 46-64-95"],
             "mails": ["1992@lanitp.ru"]
         }
     ],
     "Омск": [
         {
             "officeName": "КРИТ",
-            "phones": ["+7 (3812) 71-33-00"],
+            "phones": ["+7 3812 71-33-00"],
             "mails": ["krit@mobile-class.ru"]
         }
     ],
     "Екатеринбург": [
         {
             "officeName": "Корус АКС",
-            "phones": ["+7 (343) 365-82-09"],
+            "phones": ["+7 343 365-82-09"],
             "mails": ["quorus@quorus.ru"]
         }
     ]

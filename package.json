@@ -5,8 +5,10 @@
         "url": "https://github.com/bombinmybag/enter-site.git"
     },
     "dependencies": {
-        "express": "~4.6.1",
-        "vid-streamer": "~0.1.4"
+        "express": "latest",
+        "vid-streamer": "latest",
+        "nodemailer": "latest",
+        "body-parser": "latest"
     },
     "main": "app"
 }

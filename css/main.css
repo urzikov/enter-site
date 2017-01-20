@@ -120,6 +120,22 @@ body {
     transition: left 0.5s, width 0.5s, height 0.5s;
 }
 
+.navbar-default .navbar-nav > .request {
+    border-radius: 2px;
+    border: solid #ff6600 2px;
+    color: #ff6600 !important;
+    background: transparent;
+    transition: left 0.5s, width 0.5s, height 0.5s;
+}
+
+.navbar-default .navbar-nav > .request a {
+    text-decoration: none;
+    color: #ff7200 !important;
+    font-weight: 700;
+    outline: none;
+    border-bottom: none;
+}
+
 .onepage-pagination{
     top: 40%;
     display: none;
@@ -212,16 +228,16 @@ body {
 
 
 .owl-controls .owl-buttons > div {
-    width: 32px !important;
+    width: 60px !important;
     padding: 0px !important;
-    height: 32px !important;
-    line-height: 32px !important;
+    height: 60px !important;
+    line-height: 60px !important;
     text-align: center!important;
     color: #FFF!important;
     position: absolute!important;
     top: 50%!important;
-    font-size: 15px!important;
-    margin-top: -15px!important;
+    font-size: 21px!important;
+    margin-top: -30px!important;
     opacity: 1!important;
     background: rgba(0, 0, 0, 0.4)!important;
 
@@ -240,6 +256,72 @@ body {
 .owl-prev:after {
     content: "←";
 }
+
+.modal-backdrop.in {
+    opacity: 0.8;
+}
+.modal-backdrop {
+    background-color: #fffbf4;
+}
+.modal-content {
+    -webkit-box-shadow: 0 3px 9px rgba(100,100,100,0.5);
+    box-shadow: 0 3px 9px rgba(100,100,100,0.5);
+}
+.modal-header {
+    font-size: 20px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    font-family: 'HelveticaNeueBold';
+}
+.modal-footer {
+    border-top: 0;
+    padding-top: 0;
+    text-align: center;
+}
+.modal-footer .btn {
+    padding: 7px;
+    border-width: 2px;
+}
+.modal-footer .btn:focus,
+.modal-footer .btn:hover {
+    border-color: #ff6600;
+    background-color: #ff6600;
+    color: #ffffff;
+}
+.form-group {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+input,
+textarea {
+    display: block;
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    padding: 7px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+input:focus,
+button:focus,
+textarea:focus {
+    border-color: #ff6600;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+    outline: 0 none;
+}
+.form-error {
+    border-color: #ff0000 !important;
+    color: #ff0000;
+    border-width: 1.5px;
+}
+
+.request-info {
+    font-weight: 700;
+    padding-top: 10px;
+    color: #ff6600;
+}
+
 
 
 .pages > section{
@@ -333,9 +415,10 @@ label{
 
 .phone-number{
     font-family: 'HelveticaNeueBold';
-    font-size: 18px;
-    display: block;
-    padding: 5px;
+    font-size: 18px !important;
+    display: block !important;
+    padding: 5px !important;
+    border-bottom: none !important;
 }
 
 .navbar-inverse .phone-number{
@@ -657,7 +740,7 @@ label{
 /*================================================4 technology=========================================================*/
 
 .grey-block {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     color: rgba(255, 255, 255, 0.9);
     padding: 10px;
 }
@@ -957,6 +1040,11 @@ label{
     line-height: normal;
 }
 
+.cost-contact-number a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .cost-option {
     border: 1px #e1e1e1 solid;
     border-radius: 2px;
@@ -1204,6 +1292,32 @@ path {
 }
 #offices .popover-content{
     padding: 14px 14px 9px;
+}
+
+.contact-us {
+    position: absolute;
+    bottom: 30px;
+    font-size: 16px;
+    width: 100%;
+    background: #ffffff;
+    padding: 5px;
+}
+
+.contact-us .main-row {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.contact-us a {
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contact-us a:last-of-type {
+    position: relative;
+    float: right;
+    margin-right: 20px;
 }
 
 
