@@ -293,6 +293,7 @@ $(function () {
         $('.request-info').remove();
         $('.submit-request').removeAttr('disabled');
         $('#request-form').modal('show');
+        yaCounter42159674.reachGoal('ostavit_zayavku');
     });
 
     $('body').on('click', '.submit-request', function (evnt) {
@@ -305,6 +306,7 @@ $(function () {
             };
             $('#request-form .modal-footer').append('<div class="request-info">Спасибо! В ближайшее время мы с вами свяжемся</div>');
             $('.submit-request').attr('disabled', 'disabled');
+            yaCounter42159674.reachGoal('otpravit');
             $.post('/feedback', reqData, function (data) {
                 if (!data || data.length == 0) {
                     console.log('Что-то пошло не так с отправкой формы')

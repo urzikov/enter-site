@@ -33,7 +33,7 @@ function tryToSendEmail (params, tryCount, _callback) {
     }
     var mailOptions = {
         from:    'Информер <informer@kraftit.ru>',
-        to:      'a.urzikov@kraftit.ru',
+        to:      'sales@kraftit.ru',
         subject: 'Заявка на сайте Enter',
         text:    getLetterBody(params)
     };
